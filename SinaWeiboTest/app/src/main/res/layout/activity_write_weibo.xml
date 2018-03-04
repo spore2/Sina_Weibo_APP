@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            toolbar:title="Short">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ponysmall"
+                android:layout_gravity="center"/>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/sendContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="150dp"
+                android:gravity="top|start"
+                android:hint="write something..."/>
+
+            <GridLayout
+                android:id="@+id/imageGrid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="3"
+                android:orientation="horizontal"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:id="@+id/imageSelect"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="6dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/imageselect"/>
+
+        <ImageView
+            android:id="@+id/topics"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/imageSelect"
+            android:layout_marginBottom="6dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/topics"/>
+
+        <ImageView
+            android:id="@+id/at"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/topics"
+            android:layout_marginBottom="6dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/at"/>
+
+        <ImageView
+            android:id="@+id/emoji"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/at"
+            android:layout_marginBottom="6dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/emoji"/>
+
+        <ImageView
+            android:id="@+id/draft"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/emoji"
+            android:layout_marginBottom="6dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/draft"/>
+
+        <TextView
+            android:id="@+id/wordConunt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="6dp"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:text="140"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

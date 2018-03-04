@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:theme="@style/DarkTheme"
+    android:background="?attr/colorBackgroundLighter">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="?attr/colorBackground"
+        app:cardCornerRadius="5dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/CommentUserICON"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="false"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/com_sina_weibo_sdk_login_button_with_original_logo" />
+
+            <TextView
+                android:id="@+id/CommentUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/CommentUserICON"
+                android:layout_alignTop="@+id/CommentUserICON"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="0dp"
+                android:textColor="?attr/colorFontAccent"
+                android:text="Mr.Quin" />
+
+            <TextView
+                android:id="@+id/CommentCreateAt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/CommentUserICON"
+                android:layout_below="@+id/CommentUserName"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:textColor="?attr/colorFontText"
+                android:text="刚刚"/>
+
+            <TextView
+                android:id="@+id/CommentText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CommentCreateAt"
+                android:layout_toEndOf="@+id/CommentUserICON"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="?attr/colorFontText"
+                android:text="摸了"/>
+
+            <!--评论图片 最多有且仅只有一张-->
+
+
+
+            <!--视频 不存在的-->
+
+
+            <!--回复 评论-->
+
+            <RelativeLayout
+                android:id="@+id/CommentReply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CommentText"
+                android:background="?attr/colorBackgroundDeeper"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/CommentReplyNameText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="?attr/colorFontText"
+                    android:text="\@Mr.Quin : 摸了" />
+
+
+                <!--图片 也许不存在-->
+
+                <!--视频-->
+
+                <!--被转发微博-->
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
+

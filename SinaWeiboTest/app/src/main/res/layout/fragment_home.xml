@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/DarkTheme"
+    android:background="?attr/colorBackground"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/HomepageInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="?attr/colorBackground"
+        >
+        
+        <ImageView
+            android:id="@+id/HomepageUserIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/HomepageUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HomepageUserIcon"
+            android:textColor="?attr/colorFontAccent"
+            android:text="UserName"/>
+
+        <ImageView
+            android:id="@+id/HomepageUserGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/HomepageUserName"
+            android:layout_below="@+id/HomepageUserIcon"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/gender_unknown"/>
+
+        <TextView
+            android:id="@+id/HomepageVerifiedReason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HomepageUserName"
+            android:textColor="?attr/colorFontText"
+            android:text="Sina Verification"/>
+
+        <TextView
+            android:id="@+id/HomepageUserDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HomepageVerifiedReason"
+            android:textColor="?attr/colorFontText"
+            android:text="Profile"/>
+
+
+        <TextView
+            android:id="@+id/HomepageUserLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HomepageUserDescription"
+            android:textColor="?attr/colorFontText"
+            android:text="Location"/>
+
+        <TextView
+            android:id="@+id/HomepageUserFollowingCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HomepageUserLocation"
+            android:textColor="?attr/colorFontText"
+            android:text="2400 Following"/>
+
+        <TextView
+            android:id="@+id/HomepageUserFollowerCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@id/HomepageUserFollowingCount"
+            android:layout_below="@+id/HomepageUserLocation"
+            android:textColor="?attr/colorFontText"
+            android:text="1200 Followers"/>
+
+        <TextView
+            android:id="@+id/HomepageUserLikesCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@id/HomepageUserFollowerCount"
+            android:layout_below="@+id/HomepageUserLocation"
+            android:textColor="?attr/colorFontText"
+            android:text="1200 Likes"/>
+
+        <TextView
+            android:id="@+id/HomepageUserStatusCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HomepageUserFollowingCount"
+            android:textColor="?attr/colorFontText"
+            android:text="All Weibo ·1200"/>
+    </RelativeLayout>
+
+    <com.jude.easyrecyclerview.EasyRecyclerView
+        android:id="@+id/HomepageRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorBackground"
+        app:recyclerClipToPadding="true"
+        app:recyclerPaddingBottom="8dp"
+        app:recyclerPaddingTop="8dp"
+        app:scrollbarStyle="insideOverlay"
+        app:scrollbars="none" />
+
+</LinearLayout>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:theme="@style/GreyTheme"
+    android:background="?attr/colorBackgroundLighter">
+    <!--这个版本针对控件大小之类的细节进行了微调-->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="?attr/colorBackground"
+        app:cardCornerRadius="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/StatusUserICON"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:adjustViewBounds="false"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/com_sina_weibo_sdk_login_button_with_original_logo" />
+
+            <TextView
+                android:id="@+id/StatusUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/StatusUserICON"
+                android:layout_alignTop="@+id/StatusUserICON"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="0dp"
+                android:textSize="16sp"
+                android:fontFamily="SimHei"
+                android:textColor="?attr/colorFontAccent"
+                android:text="Mr.Quin" />
+
+            <ImageButton
+                android:id="@+id/HideStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/StatusText"
+                android:layout_alignTop="@+id/StatusUserICON"
+                android:background="@drawable/hide"
+                />
+
+            <TextView
+                android:id="@+id/StatusCreateAt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/StatusUserICON"
+                android:layout_below="@+id/StatusUserName"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"
+                android:textColor="?attr/colorFontText"
+                android:text="刚刚"/>
+
+            <TextView
+                android:id="@+id/StatusSource"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/StatusCreateAt"
+                android:layout_marginStart="25dp"
+                android:layout_toEndOf="@+id/StatusCreateAt"
+                android:textSize="14sp"
+                android:textColor="?attr/colorFontText"
+                android:text="感觉过时的iPhone 5 plus" />
+
+            <TextView
+                android:id="@+id/StatusText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StatusUserICON"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:textColor="?attr/colorFontText"
+                android:text="摸了"/>
+
+            <!--九宫格图片-->
+
+            <com.jude.easyrecyclerview.EasyRecyclerView
+                android:id="@+id/StatusNineImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:recyclerClipToPadding="true"
+                app:recyclerPaddingTop="8dp"
+                app:recyclerPaddingBottom="8dp"
+                app:scrollbarStyle="insideOverlay"
+                android:layout_below="@+id/StatusText"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:scrollbars="none"/>
+
+
+            <!--视频-->
+
+
+            <!--被转发微博-->
+
+            <RelativeLayout
+                android:id="@+id/StatusRetweeted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StatusNineImage"
+                android:background="?attr/colorBackgroundDeeper"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/StatusRetweetedNameText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorFontText"
+                    android:text="\@Mr.Quin : 摸了\n" />
+
+
+                <!--九宫格图片-->
+
+                <com.jude.easyrecyclerview.EasyRecyclerView
+                    android:id="@+id/StatusRetweetedImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:recyclerClipToPadding="true"
+                    app:recyclerPaddingTop="8dp"
+                    app:recyclerPaddingBottom="8dp"
+                    app:scrollbarStyle="insideOverlay"
+                    android:layout_below="@+id/StatusRetweetedNameText"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    app:scrollbars="none"/>
+
+                <!--视频-->
+
+                <!--被转发微博-->
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/StatusIcons"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/StatusRetweeted"
+                android:background="?attr/colorBackground"
+                android:weightSum="100">
+
+
+                <ImageButton
+                    android:id="@+id/StatusLikeButton"
+                    android:layout_width="35dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:background="?attr/colorBackground"
+                    app:srcCompat="@drawable/like" />
+
+                <ImageButton
+                    android:id="@+id/StatusCommentButton"
+                    android:layout_width="35dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:background="?attr/colorBackground"
+                    app:srcCompat="@drawable/comment" />
+
+                <ImageButton
+                    android:id="@+id/StatusRetweetedButton"
+                    android:layout_width="35dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:background="?attr/colorBackground"
+                    app:srcCompat="@drawable/retweeted" />
+
+                <ImageButton
+                    android:id="@+id/StatusShareButton"
+                    android:layout_width="35dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:background="?attr/colorBackground"
+                    app:srcCompat="@drawable/share" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
+

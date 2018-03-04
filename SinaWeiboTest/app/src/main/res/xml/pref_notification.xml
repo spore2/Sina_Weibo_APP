@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="no_picture_mode"
+        android:title="@string/no_pic_mode" />
+
+    <ListPreference
+        android:defaultValue="@string/default_theme"
+        android:entries="@array/list_theme_entries"
+        android:summary="@array/list_theme_entries"
+        android:entryValues="@array/list_theme_values"
+        android:key="theme_which"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/theme_switch" />
+
+
+</PreferenceScreen>

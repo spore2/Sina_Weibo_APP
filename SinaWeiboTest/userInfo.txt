@@ -1,0 +1,159 @@
+{"id":1765335300,
+"idstr":"1765335300",
+"class":1,
+"screen_name":"黑桐谷歌",
+"name":"黑桐谷歌",
+"province":"65",
+"city":"1",
+"location":"新疆 乌鲁木齐",
+"description":"游戏视频制作人，AB站UP主",
+"url":"http://blog.sina.com.cn/heitongguge",
+"profile_image_url":"http://tva3.sinaimg.cn/crop.0.0.640.640.50/6938e104jw8ejq67y2lckj20hs0hsdgm.jpg",
+"cover_image":"http://ww4.sinaimg.cn/crop.0.44.980.300/6938e104jw1eby9k53nduj20r80fbwic.jpg",
+"cover_image_phone":"http://ww2.sinaimg.cn/crop.0.0.640.640.640/a1d3feabjw1ecasunmkncj20hs0hsq4j.jpg",
+"profile_url":"blackgoogle",
+"domain":"blackgoogle",
+"weihao":"",
+"gender":"m",
+"followers_count":1410341,
+"friends_count":435,
+"pagefriends_count":1,
+"statuses_count":11845,
+"favourites_count":1428,
+"created_at":"Thu Dec 09 02:06:04 +0800 2010",
+"following":true,
+"allow_all_act_msg":false,
+"geo_enabled":false,
+"verified":true,
+"verified_type":0,
+"remark":"",
+"insecurity":{"sexual_content":false},
+"ptype":0,
+"allow_all_comment":false,
+"avatar_large":"http://tva3.sinaimg.cn/crop.0.0.640.640.180/6938e104jw8ejq67y2lckj20hs0hsdgm.jpg",
+"avatar_hd":"http://tva3.sinaimg.cn/crop.0.0.640.640.1024/6938e104jw8ejq67y2lckj20hs0hsdgm.jpg",
+"verified_reason":"知名游戏视频制作人，视频游戏人气解说黑桐谷歌",
+"verified_trade":"909",
+"verified_reason_url":"",
+"verified_source":"",
+"verified_source_url":"",
+"verified_state":0,
+"verified_level":3,
+"verified_type_ext":1,
+"has_service_tel":false,
+"verified_reason_modified":"",
+"verified_contact_name":"",
+"verified_contact_email":"",
+"verified_contact_mobile":"",
+"follow_me":false,
+"like":false,
+"like_me":false,
+"online_status":0,
+"bi_followers_count":359,
+"lang":"zh-cn",
+"star":0,
+"mbtype":12,
+"mbrank":7,
+"block_word":1,
+"block_app":1,
+"ability_tags":"游戏解说,
+游戏攻略,
+电视游戏",
+"credit_score":80,
+"user_ability":524,
+"urank":48,
+"story_read_state":-1,
+"vclub_member":0}
+
+ST-NTUxODUzMDkyMA%3D%3D-1508047016-yf-BAAB534E903ACA2F3EBAE5D4410CF343-1
+
+ST-NTUxODUzMDkyMA%3D%3D-1508057942-yf-6113C38B6BFCA649F516157126101204-1
+
+sinaSSOController.preloginCallBack({"retcode":0,"servertime":1508058303,"pcid":"yf-d38f688ba4268cfa348384c6ef916266648a","nonce":"S9RPKN","pubkey":"EB2A38568661887FA180BDDB5CABD5F21C7BFD59C090CB2D245A87AC253062882729293E5506350508E7F9AA3BB77F4333231490F915F6D63C55FE2F08A49B353F444AD3993CACC02DB784ABBB8E42A9B1BBFFFB38BE18D78E87A0E41B9B8F73A928EE0CCEE1F6739884B9777E4FE9E88A1BBE495927AC4A799B3181D6442443","rsakv":"1330428213","is_openlock":0,"lm":1,"smsurl":"https:\/\/login.sina.com.cn\/sso\/msglogin?entry=openapi&mobile=13121211028&s=4367c2cc8cae182d80e77a5444db7fd2","showpin":0,"exectime":12})
+
+
+  sp: 6914be3a889a10cfc494a157957ba192c8d3e9106fe5063d3763dc291ebb5b8dd4de8c20e140dde83fb880d02273dbc00c2989a1871b6ed92333fa6fab1b66c7b737ee68b8e270c4300713ec0953db16147b934403992af73ea93976bde6371b8cf38ca4c68bafc6ac2832804799c42cf32c03ab00884cb913ec9bec3ff0e82b
+
+ST-NTUxODUzMDkyMA%3D%3D-1508058383-yf-73DD2F549D4CBB6F80D683387858A823-1
+
+   appkey: 9cvJG
+   cdult: 2
+   ct: 1800
+   domain: weibo.com
+   encoding: UTF-8
+   entry: openapi
+   gateway: 1
+   nonce: RB8UW4
+   prelt: 40
+   pwencode: rsa2
+   returntype: TEXT
+   rsakv: 1330428213
+   s: 1
+   savestate: 0
+   servertime: 1508057941
+   service: miniblog
+   sp: 346fce9b46280165fdd6f3fab209f5d962d259295052da05e096276d72c24796f2d47a0995dd8cc163395651ae12bf8ec1b3ea3284289a5769edb2a7f2645366acbe0a2a378c833ef9e49cdcf92d564e1c1c01d5ebedcaff935f99e3bb90f6b60663a5668cca84391ea8dac2234e18985e69f87efac31e9979345a093f978872
+   sr: 1536*864
+   su: MTMxMjEyMTEwMjg%3D
+   useticket: 1
+   vsnf: 1
+   vsnval: 
+
+
+   appkey: 9cvJG
+   cdult: 2
+   ct: 1800
+   domain: weibo.com
+   encoding: UTF-8
+   entry: openapi
+   gateway: 1
+   nonce: S9RPKN
+   prelt: 47
+   pwencode: rsa2
+   returntype: TEXT
+   rsakv: 1330428213
+   s: 1
+   savestate: 0
+   servertime: 1508058379
+   service: miniblog
+   sp: 6914be3a889a10cfc494a157957ba192c8d3e9106fe5063d3763dc291ebb5b8dd4de8c20e140dde83fb880d02273dbc00c2989a1871b6ed92333fa6fab1b66c7b737ee68b8e270c4300713ec0953db16147b934403992af73ea93976bde6371b8cf38ca4c68bafc6ac2832804799c42cf32c03ab00884cb913ec9bec3ff0e82b
+   sr: 1536*864
+   su: MTMxMjEyMTEwMjg%3D
+   useticket: 1
+   vsnf: 1
+
+
+
+sinaSSOController.preloginCallBack({"retcode":0,"servertime":1508059348,"pcid":"yf-2b80a4d1146d9bede078d222163b9c5c75fc","nonce":"AUFPOY","pubkey":"EB2A38568661887FA180BDDB5CABD5F21C7BFD59C090CB2D245A87AC253062882729293E5506350508E7F9AA3BB77F4333231490F915F6D63C55FE2F08A49B353F444AD3993CACC02DB784ABBB8E42A9B1BBFFFB38BE18D78E87A0E41B9B8F73A928EE0CCEE1F6739884B9777E4FE9E88A1BBE495927AC4A799B3181D6442443","rsakv":"1330428213","is_openlock":0,"lm":1,"smsurl":"https:\/\/login.sina.com.cn\/sso\/msglogin?entry=openapi&mobile=13121211028&s=4367c2cc8cae182d80e77a5444db7fd2","showpin":0,"exectime":13})
+
+ST-NTUxODUzMDkyMA%3D%3D-1508059411-yf-9DE4B374FC131DCAD4695008594109BA-1
+2b80a4d1146d9bede078d222163b9c5c75fc
+9DE4B374FC131DCAD4695008594109BA
+
+   appkey: 9cvJG
+   cdult: 2
+   ct: 1800
+   domain: weibo.com
+   encoding: UTF-8
+   entry: openapi
+   gateway: 1
+   pwencode: rsa2
+   returntype: TEXT
+   rsakv: 1330428213
+   s: 1
+   savestate: 0
+   service: miniblog
+   sr: 1536*864
+   useticket: 1
+   vsnf: 1
+
+    nonce: AUFPOY
+    prelt: 13
+    sp: 4927b2931947a1b0d7a561a7bc4c5d3e85d9f20e2d685bcec7e71758e9e185312001758cbe20b5286757d111b0550ac5ca6a2611963b87359820fbb6409ebd9591a101ac01f5724ac66e63371d1da1e29974f563c8f80e53ad4dc80dec3694f2f4c5f5fd77f88f6d83d5abe49e327982f4ea55ce2e0de202e78896e9a7668c87
+    su: MTMxMjEyMTEwMjg%3D
+    servertime: 1508059410
+
+https://login.sina.com.cn/sso/login.php?client=ssologin.js(v1.4.18)&_=1508059409675&openapilogin=qrcode
+https://login.sina.com.cn/sso/login.php?client=ssologin.js(v1.4.18)&_=1508059409675&openapilogin=qrcode
+
+AUFPOY150805934819980303hupeng

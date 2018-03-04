@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 最上面一行 -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin = "3dp">
+        <!-- 用于显示用户昵称 -->
+        <TextView
+            android:id="@+id/showUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#343434"
+            android:textSize="15sp"/>
+        <!-- 用于显示刷新图标 -->
+        <ImageButton
+            android:id="@+id/refreshButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="12dp"
+            android:background="@android:drawable/ic_menu_rotate"/>
+        <!--TODO:用于显示用户头像，用ImageButton，点击后可跳出个人资料和相关设置-->
+        <!--TODO:用于写微博-->
+
+    </RelativeLayout>
+        <!--分割线-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#000000"/>
+        <!--微博显示主体-->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <!--微博列表-->
+        <ListView
+            android:id="@+id/statusList"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="2dp"
+            android:layout_margin="0px"
+            android:background="#BBFFFFFF"
+            android:cacheColorHint="#00000000"
+            android:fastScrollEnabled="true"
+            android:focusable="true"
+            android:scrollbars="vertical">
+        </ListView>
+     </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/leftUserIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/ponysmall" />
+
+    <TextView
+        android:id="@+id/leftUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Administrator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+<!--
+    <ListView
+        android:id="@+id/leftListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="true"
+        android:entries="@array/options">
+
+    </ListView>
+-->
+</LinearLayout>

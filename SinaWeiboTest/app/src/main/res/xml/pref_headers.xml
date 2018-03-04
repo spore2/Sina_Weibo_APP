@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="scse.sinaweibotest.ThemeSwitchActivity$GeneralPreferenceFragment"
+        android:title="@string/account" />
+
+    <header
+        android:fragment="scse.sinaweibotest.ThemeSwitchActivity$NotificationPreferenceFragment"
+        android:title="@string/main" />
+
+    <header
+        android:fragment="scse.sinaweibotest.ThemeSwitchActivity$DataSyncPreferenceFragment"
+        android:title="@string/about" />
+
+</preference-headers>

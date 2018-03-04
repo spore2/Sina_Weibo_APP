@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/commentViewALL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/GreyTheme"
+    android:background="?attr/colorBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.jude.easyrecyclerview.EasyRecyclerView
+        android:id="@+id/StatusContentInComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:recyclerClipToPadding="true"
+        app:recyclerPaddingTop="8dp"
+        app:recyclerPaddingBottom="8dp"
+        app:scrollbarStyle="insideOverlay"
+        app:scrollbars="none"/>
+
+
+    <com.jude.easyrecyclerview.EasyRecyclerView
+        android:id="@+id/CommentListRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:recyclerClipToPadding="true"
+        app:recyclerPaddingTop="8dp"
+        app:recyclerPaddingBottom="8dp"
+        app:scrollbarStyle="insideOverlay"
+        android:layout_below="@+id/StatusContentInComment"
+        app:scrollbars="none"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorBackgroundDeeper" format="reference|color" />
+    <attr name="colorBackground" format="reference|color" />
+    <attr name="colorBackgroundLighter" format="reference|color" />
+
+    <attr name="colorFontText" format="reference|color" />
+    <attr name="colorFontAccent" format="reference|color" />
+    <attr name="colorFontLighter" format="reference|color" />
+
+00
+    <attr name="colorMain" format="reference|color" />
+    <attr name="colorSecondary" format="reference|color" />
+
+</resources>

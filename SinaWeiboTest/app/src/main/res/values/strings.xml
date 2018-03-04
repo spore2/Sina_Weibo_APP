@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">SinaWeibo</string>
+    <string name="home_fragment_name">Browser</string>
+    <string name="person_fragment_name">Homepage</string>
+    <string name="app_version">0.0.1</string>
+    <string name="draft_fragment_draft">Drafts</string>
+    <string name="welcome">Welcome!!</string>
+    <string-array name="options">
+        <item>Favorite</item>
+        <item>Draft</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="title_activity_theme_switch">Settings</string>
+    <string name="account">账号</string>
+    <string name="main">主要</string>
+    <string name="no_pic_mode">无图模式</string>
+    <string name="theme_switch">切换主题</string>
+
+    <string name="about">关于</string>
+    <string name="version">版本</string>
+    <string name="contact_developer">联系开发者</string>
+    <string name="developer_email">mylittlepony@mlp.com</string>
+
+    <string-array name="list_theme_entries">
+        <item>Pink少女</item>
+        <item>Purple基佬</item>
+        <item>DeepPurple深紫</item>
+        <item>Indigo靛蓝</item>
+        <item>Blue蓝</item>
+        <item>Cyan青绿</item>
+        <item>Teal水鸭</item>
+        <item>Green原谅</item>
+        <item>LightGreen亮绿</item>
+        <item>Lime酸橙</item>
+        <item>Yellow黄</item>
+        <item>Amber琥珀</item>
+        <item>Orange橙</item>
+        <item>DeepOrange深橙</item>
+        <item>Brown棕褐</item>
+        <item>Grey灰-默认</item>
+        <item>BlueGrey蓝灰</item>
+        <item>BlueDark蓝灰暗-夜间模式</item>
+        <item>Dark暗-夜间模式</item>
+    </string-array>
+
+    <string name="default_theme">GreyTheme</string>
+
+    <string-array name="list_theme_values">
+        <item>PinkTheme</item>
+        <item>PurpleTheme</item>
+        <item>DeepPurpleTheme</item>
+        <item>IndigoTheme</item>
+        <item>BlueTheme</item>
+        <item>CyanTheme</item>
+        <item>TealTheme</item>
+        <item>GreenTheme</item>
+        <item>LightGreenTheme</item>
+        <item>LimeTheme</item>
+        <item>YellowTheme</item>
+        <item>AmberTheme</item>
+        <item>OrangeTheme</item>
+        <item>DeepOrangeTheme</item>
+        <item>BrownTheme</item>
+        <item>GreyTheme</item>
+        <item>BlueGreyTheme</item>
+        <item>BlueDarkTheme</item>
+        <item>DarkTheme</item>
+    </string-array>
+</resources>
